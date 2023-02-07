@@ -1,0 +1,35 @@
+title: Oxford-thesis
+author: Benjamin Lee
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    common:
+      toc: true
+      filters:
+        - oxford-thesis.lua
+    pdf:
+      # include-in-header: header.tex
+      number-sections: true
+      documentclass: ociamthesis
+      classoption: [twoside]
+      papersize: a4
+      template-partials:
+        - partials/title.tex
+        - partials/before-body.tex
+        - partials/toc.tex
+      format-resources:
+        - ociamthesis.cls
+        # temporarily disabled until it can be cleaned up. See https://github.com/quarto-dev/quarto-cli/issues/1460
+        # - oxford-university-press-note.csl
+        # - beltcrest.pdf
+      include-in-header:
+        text: |
+          \usepackage{makeidx}
+          \makeindex
+      include-after-body:
+        text: |
+          \printindex
+      csl: _extensions/oxford-thesis/oxford-university-press-note.csl
+    html:
+      css: styles.css

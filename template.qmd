@@ -1,0 +1,8 @@
+---
+title: My first chapter 
+---
+
+## Introduction {#sec-intro}
+
+This is the introduction of my first chapter. You can cite papers like this [@CameronTrivedi2013].
+
