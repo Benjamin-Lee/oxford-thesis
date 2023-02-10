@@ -72,7 +72,7 @@
 % CRESTS
 %
 % BDL: Remove the figures/ prefix 
-\def\crest{{\includegraphics{_extensions/Benjamin-Lee/quarto-oxford-thesis/beltcrest.pdf}}}
+\def\crest{{\includegraphics{_extensions/Benjamin-Lee/oxford-thesis/beltcrest.pdf}}}
 
 
 %

@@ -1,4 +1,4 @@
-title: Oxford-thesis
+title: oxford-thesis
 author: Benjamin Lee
 version: 1.0.0
 quarto-required: ">=1.2.0"
@@ -30,6 +30,6 @@ contributes:
       include-after-body:
         text: |
           \printindex
-      csl: _extensions/Benjamin-Lee/quarto-oxford-thesis/oxford-university-press-note.csl
+      csl: _extensions/Benjamin-Lee/oxford-thesis/oxford-university-press-note.csl
     html:
       css: styles.css
